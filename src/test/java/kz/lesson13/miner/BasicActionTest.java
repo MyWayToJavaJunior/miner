@@ -12,7 +12,7 @@ import static org.junit.Assert.*;
  */
 public class BasicActionTest {
 
-    final BasicAction action = new BasicAction(
+    /*final BasicAction action = new BasicAction(
             new Easy(), new ConsoleBoard(), new IGeneratorBoard() {
                 @Override
                 public ICell[][] generate() {
@@ -37,5 +37,5 @@ public class BasicActionTest {
         action.initGame();
         action.select(0, 0, true);
         action.select(1, 0, false);
-    }
+    }*/
 }
