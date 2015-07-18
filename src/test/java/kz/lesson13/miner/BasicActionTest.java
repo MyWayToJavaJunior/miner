@@ -8,7 +8,7 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 /**
- * Тест по основным действиям
+ * РўРµСЃС‚ РґР»СЏ РєРѕРЅСЃРѕР»СЊРЅРѕРіРѕ РІР°СЂРёР°РЅС‚Р°
  */
 public class BasicActionTest {
 

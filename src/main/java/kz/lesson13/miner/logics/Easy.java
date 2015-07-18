@@ -4,7 +4,7 @@ import kz.lesson13.miner.ICell;
 import kz.lesson13.miner.ISaperLogic;
 
 /**
- * Простой вариант логики для игры
+ * Р’Р°СЂРёР°РЅС‚ СЃР»РѕР¶РЅРѕСЃС‚Рё Р»РѕРіРёРєРё РёРіСЂС‹
  */
 public class Easy implements ISaperLogic{
     private ICell[][] cells;

@@ -61,4 +61,12 @@ public class ConsoleCell implements ICell<PrintStream> {
         }
     }
 
+    /**
+     * Use draw
+     */
+    @Override
+    public void draw(PrintStream graphics, int x, int y, boolean real) {
+
+    }
+
 }
