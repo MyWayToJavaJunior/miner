@@ -1,13 +1,13 @@
 package kz.lesson13.miner;
 
 /**
- * Логика игры
+ * Р›РѕРіРёРєР° РёРіСЂС‹
  */
 public interface ISaperLogic {
 
     /**
-     * Логика заполнения поля
-     * @param cells заполеное поле
+     * Р›РѕРіРёРєР° Р·Р°РїРѕР»РЅРµРЅРёСЏ РїРѕР»СЏ
+     * @param cells Р·Р°РїРѕР»РµРЅРѕРµ РїРѕР»Рµ
      */
     void loadBoard(ICell[][] cells);
 

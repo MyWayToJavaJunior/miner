@@ -4,7 +4,7 @@ import kz.lesson13.miner.IBoard;
 import kz.lesson13.miner.ICell;
 
 /**
- * Доска с выводом в консоль
+ * Р”РѕСЃРєР° СЃ РІС‹РІРѕРґРѕРј РІ РєРѕРЅСЃРѕР»СЊ
  */
 public class ConsoleBoard implements IBoard {
 

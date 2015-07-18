@@ -1,7 +1,7 @@
 package kz.lesson13.miner;
 
 /**
- * Основные действия игры
+ * РћСЃРЅРѕРІРЅС‹Рµ РґРµР№СЃС‚РІРёСЏ РЅР°Рґ РґРѕСЃРєРѕР№
  */
 public class BasicAction implements IUserAction{
     private final IGeneratorBoard generator;

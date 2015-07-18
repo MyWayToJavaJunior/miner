@@ -7,7 +7,7 @@ import javax.swing.*;
 import java.awt.*;
 
 /**
- * Доска чеерз графич интерфейс
+ * graphics board
  */
 public class GUIBoard extends JPanel implements IBoard {
 
@@ -24,8 +24,7 @@ public class GUIBoard extends JPanel implements IBoard {
             for (int x = 0; x != cells.length; x++) {
                 for (int y = 0; y != cells[0].length; y++) {
                     graphics.setColor(Color.black);
-                    //cells[x][y].draw(graphics, false);
-                    cells[x][y].drawGraphics(graphics, x, y, real);
+                    cells[x][y].draw(graphics, x, y, real);
                     graphics.drawRect(x * PADDING, y * PADDING, PADDING, PADDING);
                 }
 
@@ -47,14 +46,12 @@ public class GUIBoard extends JPanel implements IBoard {
 
     @Override
     public void drawBang() {
-        System.out.println("bang");
         real = true;
         this.repaint();
     }
 
     @Override
     public void drawCongratulate() {
-        System.out.println("you win");
         real = true;
         this.repaint();
     }

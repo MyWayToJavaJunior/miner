@@ -5,7 +5,7 @@ import kz.lesson13.miner.ICell;
 import java.io.PrintStream;
 
 /**
- * консольная ячейка
+ * РєРѕРЅСЃРѕР»СЊРЅР°СЏ СЏС‡РµР№РєР°
  */
 public class ConsoleCell implements ICell<PrintStream> {
 
@@ -61,8 +61,4 @@ public class ConsoleCell implements ICell<PrintStream> {
         }
     }
 
-    @Override
-    public void drawGraphics(PrintStream graphics, int x, int y, boolean b) {
-
-    }
 }

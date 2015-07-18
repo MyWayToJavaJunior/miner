@@ -10,7 +10,7 @@ import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
 
 /**
- * Created by X1 on 14.07.2015.
+ * graphic action
  */
 public class GUIAction extends BasicAction implements ActionListener, MouseListener {
     private GUIBoard board;

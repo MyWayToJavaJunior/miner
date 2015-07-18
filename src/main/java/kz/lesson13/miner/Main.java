@@ -13,7 +13,7 @@ import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 
 /**
- * Основной класс
+ * точка входа и создание основного фрейма
  */
 public class Main {
     private static final JPanel controlPanel = new JPanel();

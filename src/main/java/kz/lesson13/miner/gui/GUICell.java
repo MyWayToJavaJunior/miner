@@ -5,12 +5,10 @@ import kz.lesson13.miner.ICell;
 import java.awt.*;
 
 /**
- * Ячейка через графич. интерфейс
+ * graphics cell
  */
 public class GUICell implements ICell<Graphics> {
     private boolean bomb;
-    public static int x;
-    public static int y;
     private boolean suggestBomb = false;
     private boolean suggestEmpty = false;
 
@@ -43,41 +41,17 @@ public class GUICell implements ICell<Graphics> {
         this.suggestEmpty = true;
     }
 
+    /**
+     * Use drawGraphics
+     * @param paint РјРµС‚РѕРґ РїСЂРѕСЂРёСЃРѕРІРєРё
+     * @param real ?
+     */
     @Override
     public void draw(Graphics paint, boolean real) {
-        /*if (real) {
-            if (this.isBomb()) {
-               *//**
-                * paint.print("[*] "); paint.drawOval(5, 5, 40, 40);
-                *//*
-                paint.drawOval(5, 5, 10, 10);
-            } else {
-                *//**
-                 * paint.print("[ ] "); paint.drawOval(55, 55, 30, 40);
-                 *//*
-                paint.drawOval(5, 5, 10, 10);
-            }
-        } else {
-            if (this.suggestBomb) {
-                *//**
-                 * paint.print("[?] "); paint.drawOval(55, 5, 20, 40);
-                 *//*
-                paint.drawOval(5, 5, 30, 30);
-            } else if (this.suggestEmpty) {
-                *//**
-                 * paint.print("[ ] "); paint.drawOval(55, 55, 30, 40);
-                 * *//*
-                paint.drawOval(5, 5, 10, 10);
-            } else {
-                *//**
-                 * paint.print("[X] "); paint.drawOval(5, 55, 10, 40);
-                 *//*
-                //paint.drawOval(5, 55, 40, 40);
-            }
-        }*/
+
     }
 
-    public void drawGraphics(Graphics paint, int x, int y, boolean real) {
+    public void draw(Graphics paint, int x, int y, boolean real) {
         x = x < 1 ? 25 : 75;
         y = y < 1 ? 25 : 75;
         if (real) {
